@@ -32,7 +32,7 @@
     width: 100%;
  
     z-index: 3;    
-    background-color: rgba(150, 80, 80, 0.93);
+    background-image: radial-gradient(circle,rgb(150, 70, 82),pink);
     
     flex-wrap: wrap;
 
@@ -44,8 +44,7 @@
 
 
 .mainGrid{
-    /* display: grid; */
-    grid-area: mainGrid;
+       grid-area: mainGrid;
     
    
 }
@@ -258,6 +257,11 @@ article h4{
     border-style: double;
     
 }
+.cristina:hover,
+.isabela:hover{
+    transform: scale(.9,.9);
+   
+}
 
 /* PAGINA SERVICIOS */
 /* edicion listado de servicios */
@@ -315,7 +319,7 @@ article h4{
 .galleryImg:hover{
     width: 125%;
     height: 125%;
-    transform: scale(1);
+    transform: scale(1); 
    
 }
 
