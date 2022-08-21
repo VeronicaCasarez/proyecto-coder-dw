@@ -56,23 +56,25 @@
 
 
 /* tipografia del titulo */
-header h1{
+.tipografiaTitulo{
     font-family: 'Abril Fatface', cursive;
     font-size: 3rem;
     text-align: center;
+    color: black;
     
 
 }
 
 /* tipografia del subtitulo */
-header h2{
+.tipografiaSubtitulo{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: black;
    
 }
 
 
-/* edicion de menu navegador*/
+/* edicion de menu navegador
 
 nav{
     font-size: 1rem;
@@ -107,7 +109,21 @@ nav ul li a:hover{
     font-size: large;
      
 }
+*/
+/* EDICION DEL MENU DE NAVEGACION */
+.navbar-nav .nav-link.active {
+    color:white;
+     
+}
 
+.navbar-nav .nav-link:hover{
+    font-size: large;
+    
+}
+
+.nav-item.active{
+    text-decoration: underline;
+} 
 
 
 /* edicion del logo */
@@ -192,6 +208,7 @@ article h3{
 article h4{
     margin: 2%;
     padding: 2%;
+    text-decoration: underline;
 
 }
 
@@ -270,19 +287,32 @@ article h4{
     background-color:lightpink;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline; 
     font-size: large;
     padding-bottom: 1%;
     padding-top: 1%;
+
+    
 }
 
 .navServicios{
-    background-color: rgb(58, 54, 54);
-}
-.navServicios ul li a{
+    background-color: rgb(59, 55, 55);
     
-    margin: 0%; 
+}
+
+.navServicios  a{
+    display: inline-block;
+    text-decoration: none;
+    color:white ;
+    
+    padding: 2px;
+    margin: .5rem; 
 } 
+
+.navServicios  a:hover{
+    text-decoration: underline;
+   
+}
 
 
 
@@ -290,9 +320,10 @@ article h4{
 /* edicion ir al inicio de pagina */
 .irInicioPagina {
     background-color: rgb(228, 203, 203); 
-    display: inline-block;  
+    display: inline-block;   
     font-size: x-large;
-    margin-top: 30px;
+    margin-top: 5 rem;
+   
  }
 
 
@@ -340,11 +371,11 @@ fieldset{
 footer {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: rgb(181, 172, 172);
     z-index: 2;
     text-align: center;
     margin-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 
 }
 
@@ -353,6 +384,16 @@ footer div h3{
     margin: 1%;
     text-decoration: underline;
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+
+}
+
+footer div h4{
+    margin: 1%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
 
 }
 
