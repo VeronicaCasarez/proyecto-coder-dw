@@ -12,7 +12,7 @@
     background-image: url(../imagen/imagen-portada-transparente.png);
     width: 100%;
     height: 100%; 
-    display: grid;
+    display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: "headerGrid"
@@ -30,7 +30,7 @@
 }
 
 .mainGrid{
-       grid-area: mainGrid;
+    grid-area: mainGrid;
     
    
 }
@@ -58,7 +58,7 @@
 .navbar-nav .nav-link.active {
     color:white;
      
-} 
+}  
 
 .navbar-nav .nav-link:hover{
     font-size: large;
@@ -76,7 +76,7 @@
     margin: 1rem;
     padding: 0;
     width: 40%;
-  
+     
     animation: animacion-logo 10s  ease-in-out 0s infinite normal;
    
 }
@@ -114,7 +114,7 @@ main{
     margin-bottom: 5rem;
     text-align: center;
     text-decoration-line: underline;
-    color: brown;
+    color: brown; 
     
 }
 
@@ -145,8 +145,8 @@ article h3{
 
 }
 article h4{
-    margin: 2%;
-    padding: 2%;
+    margin: 1%;
+    padding: 1%;
     text-decoration: underline;
 
 }
@@ -304,52 +304,25 @@ fieldset{
 
 /* footer */
 footer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(181, 172, 172);
     z-index: 2;
-    text-align: center;
-    margin-top: 2%;
-    padding-bottom: 2%;
-
+    text-align: center; 
 }
 
-/* edicion de informacion de la empresa */
-footer div h3{
-    margin: 1%;
-    text-decoration: underline;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
 
-}
 
-footer div h4{
-    margin: 1%;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
 
-}
 
-.enlacesRedes{
-    margin-left: 1%;
-    margin-bottom: 1%;
-    margin-top: 1%;
-
-}
-
-/* boton de Whatsapp, Facebook e Instagram */
+/* EDICION boton de Whatsapp, Facebook e Instagram */
 .btnWhatsapp,
 .btnFacebook,
 .btnInstagram{
 
     bottom: 1%;
-    left: 1%;
+    left: 1%; 
     width: 8%;
-    padding: 2%;
+    padding: 2%;  
 
-}
+} 
 
 /* -------------------------------------------------------------- */
 /* RESPONSIVE  */
@@ -358,8 +331,8 @@ footer div h4{
  @media (max-width:1024px){
    
     .logo1{
-      
-        margin-left: 20%;
+        animation: none;
+        margin-left: 20%; 
 
     }
     .logo2{
@@ -430,8 +403,7 @@ footer div h4{
 @media  (max-width:768px){
 
     .logo1{
-        width:50% ;
-        margin-left: 20%;
+        animation: none;
 
     }
     .logo2{
@@ -502,7 +474,7 @@ footer div h4{
 @media (max-width:480px){
 
     .logo1{
-        
+        animation: none;
         margin-left: 20%;
 
     }
