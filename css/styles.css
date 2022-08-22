@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 /* HOME */
@@ -22,26 +22,12 @@
 }
 
 
-.headerGrid{
-
-    display: flex;
-    grid-area: headerGrid;
-    margin-top: 0%;
-    position: sticky;
-    top:0%;
-    width: 100%;
- 
+.headerGrid{    
+    grid-area: headerGrid; 
     z-index: 3;    
     background-image: radial-gradient(circle,rgb(150, 70, 82),pink);
-    
-    flex-wrap: wrap;
-
-    justify-content: center;  
-    justify-items: center;   
-    
+     
 }
-
-
 
 .mainGrid{
        grid-area: mainGrid;
@@ -54,67 +40,25 @@
 
 }
 
-
 /* tipografia del titulo */
 .tipografiaTitulo{
     font-family: 'Abril Fatface', cursive;
-    font-size: 3rem;
-    text-align: center;
-    color: black;
-    
-
-}
+    color: black; 
+   }
 
 /* tipografia del subtitulo */
 .tipografiaSubtitulo{
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     color: black;
    
 }
 
 
-/* edicion de menu navegador
-
-nav{
-    font-size: 1rem;
-    text-align: center;
-    margin: 1rem;  
-    padding: 1rem;
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;
-
-}
-
-nav ul li a{
-    text-decoration: none;
-
-    color: white;
-    font-size: 1rem;
-
-    margin:2%;
-    padding: 10px;
-     
-}
-
-nav ul li.active a,
-nav ul li a:hover{
-    text-decoration: underline double ;
-    font-size: large;
-     
-}
-*/
 /* EDICION DEL MENU DE NAVEGACION */
 .navbar-nav .nav-link.active {
     color:white;
      
-}
+} 
 
 .navbar-nav .nav-link:hover{
     font-size: large;
@@ -131,7 +75,8 @@ nav ul li a:hover{
 .logo2{
     margin: 1rem;
     padding: 0;
-    width: 50%;
+    width: 40%;
+  
     animation: animacion-logo 10s  ease-in-out 0s infinite normal;
    
 }
@@ -158,22 +103,16 @@ nav ul li a:hover{
 /* MAIN */
 
 main{
-    
-    padding: 2%;
+        padding: 2%;
     
 } 
-
-
-
 
 /* tipografia del titulo del main */
 .tituloDelParrafo{
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     margin-bottom: 5rem;
-
     text-align: center;
-
     text-decoration-line: underline;
     color: brown;
     
@@ -235,8 +174,6 @@ article h4{
     margin-top: 7rem; 
     margin-right: 2rem; 
     margin-left: 2rem; 
-   
-
 }
 
 .imagenGato{
@@ -255,11 +192,9 @@ article h4{
 
 .imgNuestroEquipo{
     border-style: double;
-    
     margin-top: 2rem;
     margin-left: 2rem; 
     margin-bottom: 3rem;
-     
    
 }
 
@@ -291,22 +226,22 @@ article h4{
     font-size: large;
     padding-bottom: 1%;
     padding-top: 1%;
-
     
 }
 
 .navServicios{
     background-color: rgb(59, 55, 55);
-    
+   
 }
 
 .navServicios  a{
-    display: inline-block;
+    display: inline-block;  
     text-decoration: none;
+
     color:white ;
     
     padding: 2px;
-    margin: .5rem; 
+    margin: .5rem;  
 } 
 
 .navServicios  a:hover{
@@ -455,12 +390,9 @@ footer div h4{
         margin-top: 10%;
         max-width: 50%;
         margin-right: 0%; 
-        /* margin-left:0%;  */
         justify-content: center;
         align-items: center;
-
         margin-left: 25%;
-       
         float: none; 
 
     }
